@@ -232,11 +232,11 @@ header form{
     height: 100%;
     padding-top: 140px;
     transition: all .3s linear;
+    left: -300px;
 }
 
 .container-filters.active{
     left: 0;
-    left: -300px;
 }
 .filter-by-type{
   display: flex;
