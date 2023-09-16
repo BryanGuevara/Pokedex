@@ -236,6 +236,7 @@ header form{
 
 .container-filters.active{
     left: 0;
+    left: -300px;
 }
 .filter-by-type{
   display: flex;
@@ -252,10 +253,90 @@ header form{
 .group-type{
     display: flex;
     gap: 10px;
-
     margin-left: 15px;
 }
 
 .group-type label{
     cursor: pointer;
+}
+
+.main-pokemon{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.header-main-pokemon{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.number-pokemon{
+    position: absolute;
+    top: -70px;
+    left: 0;
+    font-size: 300px;
+    color: var(--color-primary-hover);
+}
+.container-img-pokemon{
+flex: 1;
+order: 2;
+padding: 25px 25px 25px 0;
+}
+
+.container-img-pokemon img{
+    width: 100%;
+}
+.container-info-pokemon{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    order: 1;
+}
+.container-info-pokemon h1{
+    text-align: right;
+    font-size: 50px;
+}
+
+.info-pokemon{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.group-info p{
+    font-weight: 700;
+}
+
+.container-stats{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.stats{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 1;
+}
+
+.stat-group{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.stat-group span{
+    flex: 20;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.progress-bar{
+    width: 100%;
+    height: 30px;
+    background-color: var(--color-primary);
+    border-radius: 10px;
 }
