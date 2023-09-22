@@ -16,7 +16,8 @@
 	--color-fighting: #d56723;
 	--color-dark: #707070;
 	--color-bug: #729f3f;
-	--color-dragon: linear-gradient(180deg, #53a4cf 50%, #f16e57 50%);
+    --color-dragon: linear-gradient(180deg, #53a4cf 50%, #f16e57 50%);
+
 	--color-electric: #bba909;
 	--color-fairy: #fdb9e9;
 	--color-shadow: #7b62a3;
@@ -120,7 +121,7 @@ header form{
 
 .card-list-pokemon{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 20px;
     width: 60%;
 }
@@ -213,7 +214,7 @@ header form{
     background-color: var(--color-steel);
 }
 .dragon{
-    background-color: var(--color-dragon);
+    background: var(--color-dragon);
 }
 .dark{
     background-color: var(--color-dark);
