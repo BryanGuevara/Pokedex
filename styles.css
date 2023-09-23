@@ -35,6 +35,13 @@
 
 body{
     font-family: 'Montserrat';
+    background-image: url('https://cdn.wallpapersafari.com/38/85/8iQ9rH.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+}
+.index{
+   background-image: url('https://wallpapercave.com/wp/wp8813120.jpg');    
 }
 
 .container{
@@ -127,6 +134,8 @@ header form{
 }
 
 .card-pokemon{
+    
+    background-color: #fff;
     cursor: pointer;
     text-decoration: none;
     justify-content: center;
@@ -305,6 +314,7 @@ padding: 25px 25px 25px 0;
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
+    background-color: #fff;
 }
 
 .group-info p{
@@ -312,6 +322,7 @@ padding: 25px 25px 25px 0;
 }
 
 .container-stats{
+    background-color: #fff;
     display: flex;
     gap: 50px;
     align-items: center;
